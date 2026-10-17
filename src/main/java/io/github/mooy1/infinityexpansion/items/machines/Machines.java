@@ -404,11 +404,27 @@ public final class Machines {
         trees.put(Material.JUNGLE_SAPLING, new ItemStack[] {
                 new ItemStack(Material.JUNGLE_LEAVES, 8), new ItemStack(Material.JUNGLE_LOG, 6), new ItemStack(Material.COCOA_BEANS)
         });
+        //修改部分
         trees.put(Material.WARPED_FUNGUS, new ItemStack[] {
-                new ItemStack(Material.WARPED_HYPHAE, 8), new ItemStack(Material.WARPED_STEM, 6), new ItemStack(Material.SHROOMLIGHT)
+                new ItemStack(Material.WARPED_WART_BLOCK, 10), new ItemStack(Material.WARPED_STEM, 8), new ItemStack(Material.SHROOMLIGHT)
         });
         trees.put(Material.CRIMSON_FUNGUS, new ItemStack[] {
-                new ItemStack(Material.CRIMSON_HYPHAE, 8), new ItemStack(Material.CRIMSON_STEM, 6), new ItemStack(Material.WEEPING_VINES)
+                new ItemStack(Material.NETHER_WART_BLOCK, 10), new ItemStack(Material.CRIMSON_STEM, 8), new ItemStack(Material.WEEPING_VINES)
+        });
+        trees.put(Material.CHERRY_SAPLING, new ItemStack[] {
+                new ItemStack(Material.CHERRY_LEAVES, 12), new ItemStack(Material.CHERRY_LOG, 10), new ItemStack(Material.STICK)
+        });
+        trees.put(Material.MANGROVE_PROPAGULE, new ItemStack[] {
+                new ItemStack(Material.MANGROVE_LEAVES, 10), new ItemStack(Material.MANGROVE_LOG, 6), new ItemStack(Material.MANGROVE_ROOTS, 8), new ItemStack(Material.MANGROVE_PROPAGULE), new ItemStack(Material.MOSS_CARPET)
+        });
+        trees.put(Material.CHERRY_SAPLING, new ItemStack[] {
+                new ItemStack(Material.CHERRY_LEAVES, 12), new ItemStack(Material.CHERRY_LOG, 10), new ItemStack(Material.STICK)
+        });
+        trees.put(Material.PALE_OAK_SAPLING, new ItemStack[] {
+                new ItemStack(Material.PALE_OAK_LEAVES, 8), new ItemStack(Material.PALE_OAK_LOG, 6), new ItemStack(Material.PALE_HANGING_MOSS)
+        });
+        trees.put(Material.POPLAR_SAPLING, new ItemStack[] {
+                new ItemStack(Material.RED_POPLAR_LEAVES, 3), new ItemStack(Material.ORANGE_POPLAR_LEAVES, 3), new ItemStack(Material.YELLOW_POPLAR_LEAVES, 3), new ItemStack(Material.POPLAR_LOG, 6), new ItemStack(Material.SHELF_MUSHROOM)
         });
 
         new GrowingMachine(Groups.BASIC_MACHINES, BASIC_TREE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
